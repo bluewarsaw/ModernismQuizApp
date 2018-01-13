@@ -1,35 +1,18 @@
 <resources>
+
     <string name="app_name">Modernism Quiz App</string>
-
     <string name="instruction">Please answer questions below</string>
-
-    // Questions in quizz
-
     <string name="question_1">Where is situated building from picture above?</string>
     <string name="question_2">And this one?</string>
     <string name="question_3">How about that one</string>
     <string name="question_4">This pearl of Modernism was build in..</string>
     <string name="question_5">The year when they finished it?</string>
-    <string name="question_6">How long did the construction took?</string>
-
+    <string name="question_6">Your name?</string>
+    <string name="question_7">How long did the construction took?</string>
     <string name="date">Dates-Quiz</string>
     <string name="location">Location-Quiz</string>
     <string name="forgotten">Forgotten beauty of the 20th Century</string>
-    <string name="gallery">Authors Gallery</string>
-
-    //Answers that might need translation
-
-    <string name="answer5_officer">Officer</string>
-    <string name="answer5_prisoner">Prisoner</string>
-    <string name="answer5_soldier">Ordinary soldier</string>
-
-    <string name="answer7_zealot">Zealot</string>
-    <string name="answer7_ghost">Ghost</string>
-    <string name="answer7_stalker">Stalker</string>
-
-    // Text on score button
-
+    <string name="gallery">Modernism Gallery</string>
     <string name="button">Score</string>
-
 
 </resources>

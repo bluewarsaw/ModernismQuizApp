@@ -62,11 +62,17 @@ public class LocationActivity extends Activity {
 
         // this creates toast message that shows score of a player
 
-        Toast.makeText(this, "Your score: " + score + openAnswer, Toast.LENGTH_LONG).show();
-
-        // after toast message, method resets "score" value back to 0.
-
+        if (score > 2){
+        Toast.makeText(this, "Your score: " + score + "\n 3/3 Nice, " + openAnswer +"!", Toast.LENGTH_LONG).show();
     }
 
+        if (score < 2){
+            Toast.makeText(this, "Your score: " + score + "\n Try better, " + openAnswer, Toast.LENGTH_LONG).show();
+        }
 
-}
+        if (score == 2){
+            Toast.makeText(this, "Your score: " + score + "\n 2/3" + openAnswer, Toast.LENGTH_LONG).show();
+        }
+
+
+    }}

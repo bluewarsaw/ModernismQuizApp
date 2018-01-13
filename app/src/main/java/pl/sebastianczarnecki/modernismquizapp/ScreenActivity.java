@@ -24,7 +24,7 @@ public class ScreenActivity extends Activity {
 
         // Find a reference to the TextView in the layout. Change the text.
         TextView textView = (TextView) findViewById(R.id.status_text_view);
-        textView.setText("Warsaw localisted");
+        textView.setText("Białostocka, Warsaw");
     }
 
 
@@ -35,7 +35,7 @@ public class ScreenActivity extends Activity {
 
         // Find a reference to the TextView in the layout. Change the text.
         TextView textView = (TextView) findViewById(R.id.status_text_view);
-        textView.setText("no ladny");
+        textView.setText("Marymont Stadium, Warsaw");
     }
 
 
@@ -46,11 +46,78 @@ public class ScreenActivity extends Activity {
 
         // Find a reference to the TextView in the layout. Change the text.
         TextView textView = (TextView) findViewById(R.id.status_text_view);
-        textView.setText("no ladny");
+        textView.setText("Służew District, Warsaw");
     }
 
+    public void eatCookie4(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img4);
 
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Kozia Apartament, Warsaw");
+    }
 
+    public void eatCookie5(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img5);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("X- Skyscraper, Warsaw");
+    }
+
+    public void eatCookie6(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img6);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Grochów, Warsaw");
+    }
+
+    public void eatCookie7(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img7);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Kijowska street, Warsaw");
+    }
+
+    public void eatCookie8(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img8);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Universal, Warsaw");
+    }
+
+    public void eatCookie9(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img9);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Rotunda, Warsaw");
+    }
+
+    public void eatCookie10(View view) {
+        // Find a reference to the ImageView in the layout. Change the image.
+        ImageView imageView = (ImageView) findViewById(R.id.android_cookie_image_view);
+        imageView.setImageResource(R.drawable.img10);
+
+        // Find a reference to the TextView in the layout. Change the text.
+        TextView textView = (TextView) findViewById(R.id.status_text_view);
+        textView.setText("Sobieskiego street, Warsaw");
+    }
 
 
 

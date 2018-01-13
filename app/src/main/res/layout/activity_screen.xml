@@ -7,98 +7,145 @@
     tools:context="pl.sebastianczarnecki.modernismquizapp.ScreenActivity">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
 
-        <ImageView
+    <ImageView
             android:id="@+id/android_cookie_image_view"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
             android:scaleType="fitCenter"
-            android:src="@drawable/sc2" />
+            android:src="@drawable/img1" />
 
-        <TextView
-            android:id="@+id/status_text_view"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginTop="16dp"
-            android:text="Kozia apartament"
-            android:textColor="@android:color/white"
-            android:textSize="34sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/status_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Białostocka street, Warsaw"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:alpha=".8"
+        android:background="#FAFAFA"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>
 
-
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        >
+        android:weightSum="5"
+        android:layout_marginTop="60dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="6"
+        android:onClick="eatCookie6"
+        android:alpha=".5"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="7"
+        android:onClick="eatCookie7"
+        android:alpha=".5"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="8"
+        android:onClick="eatCookie8"
+        android:alpha=".5"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="9"
+        android:onClick="eatCookie9"
+        android:alpha=".5"
+        android:layout_weight="1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="1"
-            android:onClick="eatCookie"
-            android:alpha=".5"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="2"
-            android:onClick="eatCookie2"
-            android:alpha=".5"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="3"
-            android:onClick="eatCookie3"
-            android:alpha=".5"/>
-
+            android:layout_margin="8dp"
+            android:text="10"
+            android:onClick="eatCookie10"
+            android:alpha=".5"
+            android:layout_weight="1"/>
     </LinearLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        >
+        android:weightSum="5"
+         android:layout_marginTop="8dp">
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="8dp"
             android:text="1"
             android:onClick="eatCookie"
             android:alpha=".5"
+            android:layout_weight="1"
             />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="8dp"
             android:text="2"
             android:onClick="eatCookie2"
-            android:alpha=".5"/>
+            android:alpha=".5"
+            android:layout_weight="1"/>
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="16dp"
+            android:layout_margin="8dp"
             android:text="3"
             android:onClick="eatCookie3"
-            android:alpha=".5"/>
+            android:alpha=".5"
+            android:layout_weight="1"/>
 
-    </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="4"
+            android:onClick="eatCookie4"
+            android:alpha=".5"
+            android:layout_weight="1"/>
 
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="5"
+            android:onClick="eatCookie5"
+            android:alpha=".5"
+            android:layout_weight="1"/>
+ </LinearLayout>
 
 
 </android.support.constraint.ConstraintLayout>
